@@ -1,5 +1,5 @@
 #!/bin/bash
-SERVICE="feelingsurf/viewer:stable"
+SERVICE="feelingsurf"
 if pgrep -x "$SERVICE" >/dev/null
 then
     echo "Process found"
